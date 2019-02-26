@@ -1,24 +1,22 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using AutoMapper;
+using DataCore;
+using MechanikalAPI.Services;
+using MechanikalAPI.Services.Contracts;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using Microsoft.EntityFrameworkCore;
-using WebApi.Helpers;
-using WebApi.Services;
-using AutoMapper;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.Extensions.Options;
-using DataCore;
-using MechanikalAPI.Services.Contracts;
-using MechanikalAPI.Services;
+using System.Threading.Tasks;
+using WebApi.Helpers;
+using WebApi.Services;
 
- 
+
+
 
 namespace MechanikalApi
 {
@@ -35,11 +33,11 @@ namespace MechanikalApi
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddCors();
-            //  services.AddDbContext<MyTweetContext>(options => options.UseMySQL(Configuration.GetConnectionString("DebugConnection")));
+            services.AddDbContext<MyTweetContext>(options => options.UseMySQL(Configuration.GetConnectionString("DebugConnection")));
 
             
-            services.AddDbContext<MyTweetContext>
-                (options => options.UseSqlServer(Configuration.GetConnectionString("SqlServerConnection")));
+            /* services.AddDbContext<MyTweetContext>
+                (options => options.UseSqlServer(Configuration.GetConnectionString("SqlServerConnection")));*/
 
 
             // services.AddDbContext<DataContext>(x => x.UseInMemoryDatabase("TestDb"));
