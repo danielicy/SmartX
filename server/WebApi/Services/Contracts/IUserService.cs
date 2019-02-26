@@ -1,7 +1,7 @@
 ﻿using DataModels.Models.UserManagment;
 using System.Collections.Generic;
 
-namespace MyTweetAPI.Services.Contracts
+namespace MechanikalAPI.Services.Contracts
 {
     public interface IUserService : ICRUDBase<User>
     {

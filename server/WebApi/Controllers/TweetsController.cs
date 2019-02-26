@@ -8,12 +8,12 @@ using DataModels.Models.Tweets;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
-using MyTweetAPI.Services.Contracts;
+using MechanikalAPI.Services.Contracts;
 using WebApi.Helpers;
 using Microsoft.AspNetCore.Authorization;
 using DataModels.Models.UserManagment;
 
-namespace MyTweetAPI.Controllers
+namespace MechanikalAPI.Controllers
 {
     [Authorize]
     [ApiController]

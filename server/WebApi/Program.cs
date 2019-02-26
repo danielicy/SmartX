@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Hosting;
 
 
-namespace WebApi
+namespace MechanikalApi
 {
     public class Program
     {

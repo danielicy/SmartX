@@ -2,14 +2,14 @@
 using DataModels.Models.Tweets;
 using DataModels.Models.UserManagment;
 using Microsoft.EntityFrameworkCore;
-using MyTweetAPI.Services.Contracts;
+using MechanikalAPI.Services.Contracts;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using WebApi.Helpers;
 
-namespace MyTweetAPI.Services
+namespace MechanikalAPI.Services
 {
     public class TweetService : ITweetService
     {

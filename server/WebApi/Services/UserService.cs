@@ -1,7 +1,7 @@
 using DataCore;
 using DataModels.Models.UserManagment;
 using Microsoft.EntityFrameworkCore;
-using MyTweetAPI.Services.Contracts;
+using MechanikalAPI.Services.Contracts;
 using System;
 using System.Collections.Generic;
 using System.Linq;

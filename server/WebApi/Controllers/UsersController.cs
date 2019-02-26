@@ -12,7 +12,7 @@ using Microsoft.AspNetCore.Authorization;
 using WebApi.Services;
 using DataModels.Dtos;
 using DataModels.Models.UserManagment;
-using MyTweetAPI.Services.Contracts;
+using MechanikalAPI.Services.Contracts;
 using Microsoft.AspNetCore.Cors;
  
 

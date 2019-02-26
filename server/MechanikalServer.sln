@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyTweetAPI", "WebApi\MyTweetAPI.csproj", "{F7AE727B-1BCC-48A0-8974-36AE187C58E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "mechanikalAPI", "WebApi\mechanikalAPI.csproj", "{F7AE727B-1BCC-48A0-8974-36AE187C58E0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{A37482C8-CB30-4DED-A839-5B36CEE4A043}"
 EndProject
