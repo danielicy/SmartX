@@ -1,0 +1,24 @@
+<div class="main">
+  <div class="header">
+    <h1>Hi </h1>
+    <p>Hope You Like my App</p>
+    <p>Your are logged in as  {{currentUser.firstName}}!</p>
+  </div>
+  <p>Other Tweeters</p>
+  <ul class="sidebar">
+    <li class="users" *ngFor="let user of users">
+      <div>
+        <p class="user" [ngClass]="{isfollowed:user.isfollowed}">
+          {{user.username}}
+          <a (click)="followUser(user.id)" class="follow" *ngIf="!user.isfollowed">Follow </a>
+          <a (click)="followUser(user.id)" class="follow" *ngIf="user.isfollowed">Following </a>
+
+        </p>
+
+      </div>
+
+    </li>
+  </ul>
+   <app-tweet class="right"></app-tweet> 
+
+</div>

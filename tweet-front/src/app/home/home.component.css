@@ -1,0 +1,57 @@
+body {
+}
+
+.user {
+  font-weight: 900;
+  color: blueviolet;
+  width: 200px;
+  padding: 12px;
+  border: 1px solid darkblue;
+}
+
+.header {
+  padding: 10px;
+  margin: 10px;
+}
+
+
+
+sidebar {
+  width: 50px;
+  position: relative;
+  left: -20px;
+  border: 1px solid black;
+  float: left;
+}
+
+.main {
+  padding: 5px;
+  border: 1px solid darkblue;
+  width: 30%;
+}
+
+.follow {
+  color: blueviolet;
+  border: 3px solid #00ff90;
+  background-color: cornflowerblue;
+  padding-right: 7px;
+  padding-left: 7px;
+  margin-bottom: 2px;
+  float: right;
+}
+
+.isfollowed {
+  color: grey;
+  border: 3px solid #b9b3b3
+}
+
+
+
+
+.right {
+  top: 100px;
+  position: absolute;
+  float: right;
+  width: 80%;
+  margin-left: 500px;
+}
