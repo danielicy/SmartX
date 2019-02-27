@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace MechanikalAPI.Services.Contracts
+namespace SmartexAPI.Services.Contracts
 {
     public interface ITweetService : ICRUDBase<Tweet>
     {

@@ -8,12 +8,12 @@ using DataModels.Models.Tweets;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
-using MechanikalAPI.Services.Contracts;
+using SmartexAPI.Services.Contracts;
 using WebApi.Helpers;
 using Microsoft.AspNetCore.Authorization;
 using DataModels.Models.UserManagment;
 
-namespace MechanikalAPI.Controllers
+namespace SmartexAPI.Controllers
 {
     [Authorize]
     [ApiController]

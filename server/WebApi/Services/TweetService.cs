@@ -2,14 +2,14 @@
 using DataModels.Models.Tweets;
 using DataModels.Models.UserManagment;
 using Microsoft.EntityFrameworkCore;
-using MechanikalAPI.Services.Contracts;
+using SmartexAPI.Services.Contracts;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using WebApi.Helpers;
 
-namespace MechanikalAPI.Services
+namespace SmartexAPI.Services
 {
     public class TweetService : ITweetService
     {

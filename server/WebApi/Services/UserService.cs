@@ -1,7 +1,7 @@
 using DataCore;
 using DataModels.Models.UserManagment;
 using Microsoft.EntityFrameworkCore;
-using MechanikalAPI.Services.Contracts;
+using SmartexAPI.Services.Contracts;
 using System;
 using System.Collections.Generic;
 using System.Linq;

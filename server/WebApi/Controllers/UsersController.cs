@@ -12,7 +12,7 @@ using Microsoft.AspNetCore.Authorization;
 using WebApi.Services;
 using DataModels.Dtos;
 using DataModels.Models.UserManagment;
-using MechanikalAPI.Services.Contracts;
+using SmartexAPI.Services.Contracts;
 using Microsoft.AspNetCore.Cors;
  
 
@@ -91,6 +91,7 @@ namespace WebApi.Controllers
             }
         }
 
+        [AllowAnonymous]
         [HttpGet]
         public IActionResult GetAll()
         {

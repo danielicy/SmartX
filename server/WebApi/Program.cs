@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Hosting;
 
 
-namespace MechanikalApi
+namespace SmartexApi
 {
     public class Program
     {

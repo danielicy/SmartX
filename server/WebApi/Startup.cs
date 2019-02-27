@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
 using DataCore;
-using MechanikalAPI.Services;
-using MechanikalAPI.Services.Contracts;
+using SmartexAPI.Services;
+using SmartexAPI.Services.Contracts;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -18,7 +18,7 @@ using WebApi.Services;
 
 
 
-namespace MechanikalApi
+namespace SmartexApi
 {
     public class Startup
     {
