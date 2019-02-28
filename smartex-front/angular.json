@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "mechanikal-front": {
+    "smartex-front": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/mechanikal-front",
+            "outputPath": "dist/smartex-front",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -57,18 +57,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "mechanikal-front:build"
+            "browserTarget": "smartex-front:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "mechanikal-front:build:production"
+              "browserTarget": "smartex-front:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "tweet-front:build"
+            "browserTarget": "smartex-front:build"
           }
         },
         "test": {
@@ -102,7 +102,7 @@
         }
       }
     },
-    "mechanikal-front-e2e": {
+    "smartex-front-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "prefix": "",
@@ -111,11 +111,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "mechanikal-front:serve"
+            "devServerTarget": "smartex-front:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "mechanikal-front:serve:production"
+              "devServerTarget": "smartex-front:serve:production"
             }
           }
         },
@@ -131,5 +131,5 @@
       }
     }
   },
-  "defaultProject": "tweet-front"
+  "defaultProject": "smartex-front"
 }
